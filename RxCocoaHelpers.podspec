@@ -4,9 +4,10 @@ Pod::Spec.new do |s|
   s.summary      = "RxCocoaHelpers"
   s.homepage     = "https://github.com/beathead-team/RxCocoaHelpers"
   s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.author       = { "Victor Kurinny" => "tyokman@gmail.com" }
   s.swift_version = '5.2.4'
   s.ios.deployment_target = '10.0'
-  s.source       = { :git => "https://github.com/beathead-team/RxCocoaHelpers", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/beathead-team/RxCocoaHelpers.git", :tag => s.version.to_s }
   s.source_files = "RxCocoaHelpers/**/*.{h,swift}"
   s.requires_arc = true
   s.frameworks   = ["Foundation", "UIKit"]
